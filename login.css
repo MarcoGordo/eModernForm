@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*{
+    font-family: 'Playfair Display', serif;
+}
+
+html{
+    
+    background-color: #161717;
+}
+
+h3{
+    color:white;
+}
+
+.container{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+    width: 450px;
+    gap: 30px;
+    
+}
+
+.separator{
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+
+.separator hr{
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+.separator span{
+    color: #8b8b8b;
+}
+
+
+label{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: white;
+}
+
+label input{
+    color: white;
+    width: 90%;
+    background-color: #212121;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+    transition: background-color 0.2s, border 0.2s, box-shadow 0.2s;
+}
+.section-inputs{
+    display: flex;
+    gap: 30px;
+}
+
+
+label span{
+    font-weight: 700;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 30px;
+
+}
+
+input{
+    background-color: #212121;
+}
+label input:hover{
+    background-color: #454045;
+    border: solid 1px #8b8b8b;
+    box-shadow: 0 0 8px skyblue;
+
+}
+label input:focus{
+    border: solid 3px #8b8b8b;
+    box-shadow: 0 0 8px #EA4C89;
+
+}
+.buttons{
+    align-self: flex-start;
+    gap: 20px;
+    display: flex;
+}
+
+.google-btn{
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+    width: 275px;
+    font-size: 14pt;
+}
+
+.google-btn:hover{
+    opacity: 0.6;
+}
+.google-btn span{
+    color: white;
+    padding: 15px;
+    font-weight: 500;
+}
+
+.google-btn picture{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-btn picture img{
+    width: 80%;
+}
+
+.twiter-btn{
+    color: rgb(242, 250, 253);
+    background-color:rgb(240, 244, 245);
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.twiter-btn:hover{
+    opacity: 0.9;
+    cursor: pointer;
+    background-color: #ddd;
+}
+.twiter-btn picture{
+    width: 30px;
+    height: 30px;
+    display: flex;
+}
+.twiter-btn picture img{
+    width: 100%;
+}
+.checkbox-label{
+    display: flex;
+    flex-direction: row;
+}
+.checkbox-label input[type="checkbox"]{
+    width: 20px;
+}
+
+.checkbox-label span{
+    font-weight: 400;
+}
+
+.submit-btn{
+    background-color: #EA4C89;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding: 5px;
+    font-weight: 500;
+    font-size: 14pt;
+    color: white;
+}
+.submit-btn:hover{
+    opacity: 0.75;
+}
